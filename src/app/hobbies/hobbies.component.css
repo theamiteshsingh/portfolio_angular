@@ -1,0 +1,30 @@
+.hobbies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hobbies-item {
+  margin: 20px;
+  padding: 20px;
+  width: calc(33.33% - 40px);
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hobbies-item h3 {
+  margin-top: 0;
+  color: #333;
+  font-weight: bold;
+}
+
+.hobbies-item p {
+  margin-bottom: 20px;
+  color: #666;
+}

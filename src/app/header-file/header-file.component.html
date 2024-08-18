@@ -1,0 +1,15 @@
+<header class="bg-gray-800 text-white py-4">
+  <div class="container mx-auto flex justify-between items-center">
+    <div class="flex items-center">
+      <img src="assets/profile-picture.png" alt="Profile Picture" class="w-12 h-12 rounded-full mr-4">
+      <div>
+        <h1 class="text-2xl font-bold">{{ name }}</h1>
+        <p class="text-lg font-light">{{ jobTitle }}</p>
+      </div>
+    </div>
+    <div class="flex items-center">
+      <a href="mailto:{{ email }}" class="text-lg font-light mr-2">{{ email }}</a>
+      <a href="tel:{{ phone }}" class="text-lg font-light">{{ phone }}</a>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,28 @@
+<div class="skills-container">
+  <div class="table-container">
+    <h2>Technical Skills</h2>
+    <table>
+      <tr>
+        <th>Skill</th>
+        <th>Level</th>
+      </tr>
+      <tr *ngFor="let skill of technicalSkills">
+        <td>{{ skill.name }}</td>
+        <td>{{ skill.level }}</td>
+      </tr>
+    </table>
+  </div>
+  <div class="table-container">
+    <h2>Soft Skills</h2>
+    <table>
+      <tr>
+        <th>Skill</th>
+        <th>Level</th>
+      </tr>
+      <tr *ngFor="let skill of softSkills">
+        <td>{{ skill.name }}</td>
+        <td>{{ skill.level }}</td>
+      </tr>
+    </table>
+  </div>
+</div>
